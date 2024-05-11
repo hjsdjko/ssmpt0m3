@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/kechengleixing/list",
+    "pages/kechengleixing/add-or-update",
+    "pages/kechengleixing/detail",
+    "pages/kechengshipin/list",
+    "pages/kechengshipin/add-or-update",
+    "pages/kechengshipin/detail",
+    "pages/zuoyexinxi/list",
+    "pages/zuoyexinxi/add-or-update",
+    "pages/zuoyexinxi/detail",
+    "pages/zuoyetijiao/list",
+    "pages/zuoyetijiao/add-or-update",
+    "pages/zuoyetijiao/detail",
+    "pages/tiwenxinxi/list",
+    "pages/tiwenxinxi/add-or-update",
+    "pages/tiwenxinxi/detail",
+    "pages/tiwenhuida/list",
+    "pages/tiwenhuida/add-or-update",
+    "pages/tiwenhuida/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discusskechengshipin/list",
+    "pages/discusskechengshipin/add-or-update",
+    "pages/discusskechengshipin/detail",
+    "pages/discusszuoyexinxi/list",
+    "pages/discusszuoyexinxi/add-or-update",
+    "pages/discusszuoyexinxi/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "课程答疑微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#339999",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/kechengshipin/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "课程视频"
+      },
+      {
+        "pagePath": "pages/zuoyexinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "作业信息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
